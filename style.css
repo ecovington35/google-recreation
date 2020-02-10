@@ -1,0 +1,163 @@
+body {
+    max-width: 1028px;
+    max-height: 600px;
+    display: inline;
+    margin: auto;
+    font-family: arial,sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: green;
+}
+
+.left {
+    float: left;
+    margin: 0;
+    margin-left: 23px;
+    margin-top: 20px;
+}
+
+.right {
+    float: right;
+    margin: 0;
+    margin-right: 23px;
+    margin-top: 14px;
+}
+
+a {
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.left a:hover {
+    text-decoration: underline;
+}
+
+.left a {
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+}
+
+.signin {
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #0081D7;
+    color: white;
+    border-radius: 2px;
+}
+
+.signin:hover {
+    box-shadow: 0 .5px 0 0 gray;
+}
+
+img {
+    position: relative;
+    top: 7px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 175px;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    color: #9AA0A6;
+    display: block;
+
+}
+
+.search {
+    width: 556px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 13px;
+}
+
+.search:hover {
+    box-shadow: .5px 1px .5px .5px lightgray;
+}
+
+.buttons{
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttons a {
+    padding: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.buttons a:hover {
+    border: .5px solid lightgray;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    padding: 9.5px;
+    padding-left: 15.5px;
+    padding-right: 15.5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+}
+
+.bottomleft {
+    float: left;
+    margin: 0;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.bottomleft a{
+    color: #5f6368;
+    margin: auto;
+    padding: 11px;
+}
+
+.bottomright {
+    float: right;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.bottomright a{
+    color: #5f6368;
+    margin: auto;
+    padding: 11px;
+}
